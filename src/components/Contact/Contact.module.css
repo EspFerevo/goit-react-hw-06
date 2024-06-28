@@ -1,0 +1,55 @@
+.contactContainer {
+  min-width: 260px;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f3f3f3, #e3e3e3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contactContainer:hover {
+  transform: scale(1.05);
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+  height: 40px;
+  transition: color 0.3s ease;
+}
+
+.contactItem:hover {
+  color: #333;
+}
+
+.btn {
+  height: 40px;
+  width: 90px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #e3e3e3, #d1d1d1);
+  transform: translateY(-3px);
+}
+
+.iconPerson {
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.contactItem:hover .iconPerson {
+  transform: rotate(20deg);
+}

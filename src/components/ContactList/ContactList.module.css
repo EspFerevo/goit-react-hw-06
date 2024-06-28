@@ -2,8 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 10px;
+  background: linear-gradient(135deg, #f9f9f9, #e6e6e6);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contactList:hover {
+  transform: scale(1.02);
 }
 
 .contactItems {
   display: flex;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contactItems:hover {
+  background: linear-gradient(135deg, #e3e3e3, #d1d1d1);
+  transform: translateY(-5px);
 }
