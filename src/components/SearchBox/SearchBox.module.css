@@ -1,0 +1,36 @@
+/* SearchBox.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.searchInput {
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  height: 35px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #3737dd;
+}
